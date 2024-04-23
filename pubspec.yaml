@@ -25,6 +25,8 @@ dependencies:
 
   ###### ================ DATA SOURCE ================= ######
   dio: ^5.4.0
+  background_downloader: ^8.4.3
+
 
   ###### ================ Utils ================= ######
   palestine_connection: ^0.0.21

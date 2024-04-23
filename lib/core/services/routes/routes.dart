@@ -1,4 +1,4 @@
-import 'package:first_task/modules/download/presentation/screens/sn_characters_list.dart';
+import 'package:first_task/modules/download/presentation/screens/sn_download.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:first_task/core/services/routes/routes_names.dart';
 import 'package:first_task/core/widgets/sn_connection_error.dart';
@@ -22,7 +22,7 @@ class Routes {
     r.child(
       RoutesNames.characters.download,
       transition: TransitionType.fadeIn,
-      child: (_) => SNDownloadList(),
+      child: (_) => SNDownload(),
     );
 
     //------------- End Home Routes -------------//
